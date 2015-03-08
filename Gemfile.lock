@@ -1,0 +1,23 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    chronic (0.10.2)
+    maclight (1.0.1)
+      optix (>= 1.2.2)
+    mini_portile (0.6.2)
+    nokogiri (1.6.6.2)
+      mini_portile (~> 0.6.0)
+    optix (1.2.4)
+      chronic
+    weather-report (0.3.7)
+      nokogiri
+    whenever (0.9.4)
+      chronic (>= 0.6.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  maclight
+  weather-report
+  whenever
